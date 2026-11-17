@@ -1,0 +1,17 @@
+
+name: GodWand
+version: 1.0
+main: com.gamingsir85.godwand.GodWand
+api-version: '1.21'
+author: GamingSir85
+description: Ultimate God Wand Plugin
+
+commands:
+  godwand:
+    description: Get the God Wand
+    usage: /godwand
+
+permissions:
+  godwand.use:
+    description: Allows use of God Wand
+    default: op
